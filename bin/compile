@@ -16,8 +16,8 @@ CACHE_FILE="$CACHE_DIR/autotrace.tar.gz"
 if [ ! -f $CACHE_FILE ]; then
   # install autotrace
   AUTO_TRACE_VERSION="${AUTO_TRACE_VERSION:-0.31.1}"
-  AUTO_TRACE_FILE="AutoTrace-$AUTO_TRACE_VERSION.tar.gz"
-  AUTO_TRACE_DIR="AutoTrace-$AUTO_TRACE_VERSION"
+  AUTO_TRACE_FILE="autotrace-$AUTO_TRACE_VERSION.tar.gz"
+  AUTO_TRACE_DIR="autotrace-$AUTO_TRACE_VERSION"
   # SSL cert used on autotrace not recognized by heroku.
   AUTO_TRACE_URL="https://s3.amazonaws.com/pradux-buildpacks/autotrace-0.31.1.tar.gz"
 
